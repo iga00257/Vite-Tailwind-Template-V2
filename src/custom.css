@@ -1,0 +1,6 @@
+.logo {
+  @apply relative h-full w-auto max-w-full inset-0 object-cover object-left	shadow-none;
+  max-height: 30px;
+  max-width: 100%;
+  top: -1px;
+}

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "useUnknownInCatchVariables": false,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "es2015", "es2017", "es2019", "es2020"],
+    "module": "esnext",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noUnusedLocals": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "types": ["vite-plugin-svgr/client", "jest", "node"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "./*.js", ".eslintrc.js"],
+  "exclude": ["node_modules"]
+}
